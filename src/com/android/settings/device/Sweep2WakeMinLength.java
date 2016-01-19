@@ -16,7 +16,7 @@ public class Sweep2WakeMinLength implements OnPreferenceChangeListener {
     }
 
     /**
-     * Restore Sweep2Wake stroke setting from SharedPreferences. (Write to kernel.)
+     * Restore Sweep2Wake MinLengh setting from SharedPreferences. (Write to kernel.)
      * @param ctx       The context to read the SharedPreferences from
      */
     public static void restore(Context ctx) {
@@ -25,7 +25,7 @@ public class Sweep2WakeMinLength implements OnPreferenceChangeListener {
         }
 
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(ctx);
-        Utils.writeValue(FILE, sharedPrefs.getString(DeviceSettings.KEY_S2WLENGTH, "325"));
+        Utils.writeValue(FILE, sharedPrefs.getString(DeviceSettings.KEY_S2WLENGTH, "500"));
     }
 
     @Override

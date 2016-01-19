@@ -25,7 +25,7 @@ public class Sweep2WakeSwitch implements OnPreferenceChangeListener {
         }
 
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(ctx);
-        boolean enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_S2WSWITCH, true);
+        boolean enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_S2WSWITCH, false);
         if(enabled)
             Utils.writeValue(FILE, "1");
         else

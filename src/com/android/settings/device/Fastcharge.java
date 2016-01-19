@@ -16,7 +16,7 @@ public class Fastcharge implements OnPreferenceChangeListener {
     }
 
     /**
-     * Restore fast charge setting from SharedPreferences. (Write to kernel.)
+     * Restore FastCharge setting from SharedPreferences. (Write to kernel.)
      * @param ctx       The context to read the SharedPreferences from
      */
     public static void restore(Context ctx) {
@@ -25,7 +25,7 @@ public class Fastcharge implements OnPreferenceChangeListener {
         }
 
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(ctx);
-        boolean enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_FASTCHARGE, false);
+        boolean enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_FASTCHARGE, true);
         if(enabled)
             Utils.writeValue(FILE, "1");
         else
