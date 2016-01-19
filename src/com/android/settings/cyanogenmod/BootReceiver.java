@@ -20,6 +20,14 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import com.android.settings.ButtonSettings;
+
+import com.android.settings.DeviceSettings;
+import com.android.settings.device.Fastcharge;
+import com.android.settings.device.DoubleTap2Wake;
+import com.android.settings.device.Sweep2WakeSwitch;
+import com.android.settings.device.Sweep2WakeStroke;
+import com.android.settings.device.Sweep2WakeMinLength;
+
 import com.android.settings.DisplaySettings;
 import com.android.settings.contributors.ContributorsCloudFragment;
 import com.android.settings.hardware.VibratorIntensity;
@@ -41,6 +49,12 @@ public class BootReceiver extends BroadcastReceiver {
         VibratorIntensity.restore(ctx);
         InputMethodAndLanguageSettings.restore(ctx);
         LocationSettings.restore(ctx);
+
+        Sweep2WakeSwitch.restore(ctx);
+        Sweep2WakeStroke.restore(ctx);
+        Sweep2WakeMinLength.restore(ctx);
+        Fastcharge.restore(ctx);
+        DoubleTap2Wake.restore(ctx);
 
         // Extract the contributors database
         ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);

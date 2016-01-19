@@ -152,6 +152,14 @@
                 android:icon="@drawable/ic_settings_buttons"
                 />
 
+        <!-- HOX Parts -->
+        <dashboard-tile
+                android:id="@+id/device_settings"
+                android:title="@string/device_pref_title"
+                android:fragment="com.android.settings.DeviceSettings"
+                android:icon="@drawable/ic_settings_nfc_payment"
+                />
+
         <!-- O-Click -->
         <dashboard-tile
                 android:id="@+id/oclick"

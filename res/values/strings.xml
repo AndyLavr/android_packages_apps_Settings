@@ -6063,4 +6063,23 @@
    <string name="imei_information_summary">IMEI relative information</string>
    <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
 
+   <!-- For HOX Devices -->
+    <string name="app_name">Advanced settings</string>
+
+    <string name="category_s2w_title">Sweep2Wake (S2W)</string>
+    <string name="s2w_switch_title_head">Enable</string>
+    <string name="s2w_switch_summary_head">Switch phone screen on/off with a swipe over the capacitive buttons</string>
+    <string name="s2w_stroke_title_head">Direction</string>
+    <string name="s2w_stroke_summary_head">Set to "Direction dependent" to allow only a left-to-right swipe for turning on and a right-to-left swipe for turning off</string>
+    <string name="s2w_length_title_head">Minimum Length</string>
+    <string name="s2w_length_summary_head">Set the number of buttons that are needed to be swiped over for switching screen on/off</string>
+
+    <string name="category_usb_title">Fast Charge (2A)</string>
+    <string name="fastcharge_title_head">Enable</string>
+    <string name="fastcharge_summary_head">Enable to draw more power when connected to a USB port</string>
+
+    <string name="category_s2wdt_title">DoubleTap2Wake (DT2W)</string>
+    <string name="s2wdt_title_head">Enable</string>
+    <string name="s2wdt_summary_head">It allows you to control the device by double-clicking a dream</string>
+
 </resources>

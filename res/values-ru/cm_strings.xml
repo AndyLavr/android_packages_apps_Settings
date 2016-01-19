@@ -99,6 +99,7 @@
   <string name="toggleSync">Автосинхронизация</string>
   <string name="toggle2g3g4g">Тип сети</string>
   <string name="toggleNfc">NFC</string>
+  <string name="device_pref_title">Расширенные настройки</string>
   <string name="button_pref_title">Кнопки</string>
   <string name="hardware_keys_power_key_title">Кнопка питания</string>
   <string name="hardware_keys_home_key_title">Кнопка «Домой»</string>

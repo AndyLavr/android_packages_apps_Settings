@@ -90,6 +90,11 @@ import com.android.settings.dashboard.NoHomeDialogFragment;
 import com.android.settings.dashboard.SearchResultsSummary;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.deviceinfo.UsbSettings;
+import com.android.settings.device.Fastcharge;
+import com.android.settings.device.DoubleTap2Wake;
+import com.android.settings.device.Sweep2WakeMinLength;
+import com.android.settings.device.Sweep2WakeStroke;
+import com.android.settings.device.Sweep2WakeSwitch;
 import com.android.settings.fuelgauge.PowerUsageSummary;
 import com.android.settings.livedisplay.LiveDisplay;
 import com.android.settings.lockscreen.LockScreenSettings;
@@ -283,6 +288,7 @@ public class SettingsActivity extends Activity
             HomeSettings.class.getName(),
             DisplaySettings.class.getName(),
             DeviceInfoSettings.class.getName(),
+            DeviceSettings.class.getName(),
             ManageApplications.class.getName(),
             ProcessStatsUi.class.getName(),
             NotificationStation.class.getName(),

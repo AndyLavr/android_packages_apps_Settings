@@ -135,6 +135,9 @@
     <string name="toggle2g3g4g">Preferred network type</string>
     <string name="toggleNfc">NFC</string>
 
+    <!-- HOX Parts -->
+    <string name="device_pref_title">Advanced settings</string>
+
     <!-- Hardware keys -->
     <string name="button_pref_title">Buttons</string>
     <string name="hardware_keys_power_key_title">Power button</string>
