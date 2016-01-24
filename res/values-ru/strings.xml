@@ -2526,4 +2526,6 @@
     <string name="category_s2wdt_title">Двойное нажатие (DT2W)</string>
     <string name="s2wdt_title_head">Включить режим</string>
     <string name="s2wdt_summary_head">Позволяет управлять спящим режимом двойным нажатием на панели сенсорных кнопок</string>
+    <string name="s2w_double_tap_dead_area_title_head">Изменить рабочую область</string>
+    <string name="s2w_double_tap_dead_area_summary_head">Выбрать рабочую область для распознавания двойного щелчка</string>
 </resources>

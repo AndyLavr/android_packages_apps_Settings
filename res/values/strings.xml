@@ -6081,5 +6081,7 @@
     <string name="category_s2wdt_title">DoubleTap2Wake (DT2W)</string>
     <string name="s2wdt_title_head">Enable</string>
     <string name="s2wdt_summary_head">It allows you to control the device by double-clicking a dream</string>
+    <string name="s2w_double_tap_dead_area_title_head">Change work area</string>
+    <string name="s2w_double_tap_dead_area_summary_head">Select the workspace to recognize a double-click</string>
 
 </resources>

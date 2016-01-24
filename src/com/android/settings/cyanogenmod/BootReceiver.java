@@ -24,6 +24,7 @@ import com.android.settings.ButtonSettings;
 import com.android.settings.DeviceSettings;
 import com.android.settings.device.Fastcharge;
 import com.android.settings.device.DoubleTap2Wake;
+import com.android.settings.device.DoubleTap2WakeDeadArea;
 import com.android.settings.device.Sweep2WakeSwitch;
 import com.android.settings.device.Sweep2WakeStroke;
 import com.android.settings.device.Sweep2WakeMinLength;
@@ -55,6 +56,7 @@ public class BootReceiver extends BroadcastReceiver {
         Sweep2WakeMinLength.restore(ctx);
         Fastcharge.restore(ctx);
         DoubleTap2Wake.restore(ctx);
+        DoubleTap2WakeDeadArea.restore(ctx);
 
         // Extract the contributors database
         ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);

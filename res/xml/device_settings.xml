@@ -63,6 +63,14 @@
 	        android:title="@string/s2wdt_title_head"
 	        android:summary="@string/s2wdt_summary_head"
 	        android:defaultValue="0" />
+	    <ListPreference
+	        android:key="s2w_double_tap_dead_area"
+	        android:title="@string/s2w_double_tap_dead_area_title_head"
+	        android:summary="@string/s2w_double_tap_dead_area_summary_head"
+                android:dependency="s2w_double_tap"
+	        android:entries="@array/s2w_double_tap_dead_area_entries"
+	        android:entryValues="@array/s2w_double_tap_dead_area_entries_values"
+	        android:defaultValue="1780" />
 	</PreferenceCategory>
 
 </PreferenceScreen>

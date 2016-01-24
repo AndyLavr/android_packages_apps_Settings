@@ -92,6 +92,7 @@ import com.android.settings.deviceinfo.Memory;
 import com.android.settings.deviceinfo.UsbSettings;
 import com.android.settings.device.Fastcharge;
 import com.android.settings.device.DoubleTap2Wake;
+import com.android.settings.device.DoubleTap2WakeDeadArea;
 import com.android.settings.device.Sweep2WakeMinLength;
 import com.android.settings.device.Sweep2WakeStroke;
 import com.android.settings.device.Sweep2WakeSwitch;

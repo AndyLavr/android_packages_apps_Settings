@@ -48,6 +48,7 @@ import java.util.Map;
 
 import com.android.settings.device.Fastcharge;
 import com.android.settings.device.DoubleTap2Wake;
+import com.android.settings.device.DoubleTap2WakeDeadArea;
 import com.android.settings.device.Sweep2WakeSwitch;
 import com.android.settings.device.Sweep2WakeStroke;
 import com.android.settings.device.Sweep2WakeMinLength;
@@ -60,12 +61,14 @@ public class DeviceSettings extends SettingsPreferenceFragment implements Indexa
     public static final String KEY_S2WLENGTH = "s2w_length";
     public static final String KEY_FASTCHARGE = "fastcharge";
     public static final String KEY_S2WDT = "s2w_double_tap";
+    public static final String KEY_S2WDTDEADAREA = "s2w_double_tap_dead_area";
 
     private TwoStatePreference mS2WSwitch;
     private ListPreference mS2WStroke;
     private ListPreference mS2WLength;
     private TwoStatePreference mFastcharge;
     private TwoStatePreference mS2WDT;
+    private ListPreference mS2WDTDeadArea;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -91,6 +94,10 @@ public class DeviceSettings extends SettingsPreferenceFragment implements Indexa
         mS2WDT = (TwoStatePreference) findPreference(KEY_S2WDT);
         mS2WDT.setEnabled(DoubleTap2Wake.isSupported());
         mS2WDT.setOnPreferenceChangeListener(new DoubleTap2Wake());
+
+        mS2WDTDeadArea = (ListPreference) findPreference(KEY_S2WDTDEADAREA);
+        mS2WDTDeadArea.setEnabled(DoubleTap2WakeDeadArea.isSupported());
+        mS2WDTDeadArea.setOnPreferenceChangeListener(new DoubleTap2WakeDeadArea());
 
     }
 

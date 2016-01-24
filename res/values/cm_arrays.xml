@@ -113,6 +113,11 @@
         <item>3 buttons</item>
     </string-array>
 
+    <string-array name="s2w_double_tap_dead_area_entries">
+        <item>Screen area</item>
+        <item>Sensor key area</item>
+    </string-array>
+
     <string-array name="s2w_stroke_entries_values" translatable="false">
         <item>1</item>
         <item>0</item>
@@ -122,6 +127,11 @@
         <item>325</item>
         <item>500</item>
         <item>850</item>
+    </string-array>
+
+    <string-array name="s2w_double_tap_dead_area_entries_values" translatable="false">
+        <item>0</item>
+        <item>1780</item>
     </string-array>
 
     <!-- Volume key cursor control -->
