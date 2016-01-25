@@ -535,4 +535,21 @@
     <item msgid="4608643045752965568">"Рожевий"</item>
     <item msgid="6131821495505931173">"Червоний"</item>
   </string-array>
+
+    <string-array name="s2w_stroke_entries">
+        <item>Будь-який напрямок</item>
+        <item>Тільки в одну сторону</item>
+    </string-array>
+
+    <string-array name="s2w_length_entries">
+        <item>Одна кнопка</item>
+        <item>Дві кнопки</item>
+        <item>Три кнопки</item>
+    </string-array>
+
+    <string-array name="s2w_double_tap_dead_area_entries">
+        <item>Вся область екрану</item>
+        <item>Область сенсорних кнопок</item>
+    </string-array>
+
 </resources>

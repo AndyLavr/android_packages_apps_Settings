@@ -542,9 +542,9 @@
     </string-array>
 
     <string-array name="s2w_length_entries">
-        <item>1 кнопка</item>
-        <item>2 кнопки</item>
-        <item>3 кнопки</item>
+        <item>Одна кнопка</item>
+        <item>Две кнопки</item>
+        <item>Три кнопки</item>
     </string-array>
 
     <string-array name="s2w_double_tap_dead_area_entries">

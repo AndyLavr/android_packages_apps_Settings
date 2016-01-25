@@ -2513,4 +2513,19 @@
     <string name="imei_information_title" msgid="8499085421609752290">"Інформація про IMEI"</string>
     <string name="imei_information_summary" msgid="2074095606556565233">"Інформація про IMEI"</string>
     <string name="slot_number" msgid="3762676044904653577">"(Гніздо <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+    <string name="category_s2w_title">Зчитування кнопок (S2W)</string>
+    <string name="s2w_switch_title_head">Включити режим</string>
+    <string name="s2w_switch_summary_head">Переключення режиму екрану проводячи пальцем по сенсорних кнопок меню</string>
+    <string name="s2w_stroke_title_head">Напрямок перемикання</string>
+    <string name="s2w_stroke_summary_head">Дозволити підключення тільки в одну сторону в напрямку зліва направо або навпаки</string>
+    <string name="s2w_length_title_head">Мінімальна довжина</string>
+    <string name="s2w_length_summary_head">Встановіть кількість кнопок, які необхідні для проходу пальцем по екрану для перемикання режиму</string>
+    <string name="category_usb_title">Швидка зарядка (2А)</string>
+    <string name="fastcharge_title_head">Включити режим</string>
+    <string name="fastcharge_summary_head">У режимі 2А межа струму USB встановлений в 2100mA і постійного струму зарядного пристрою встановлений в 1500 мА</string>
+    <string name="category_s2wdt_title">Подвійне натискання (DT2W)</string>
+    <string name="s2wdt_title_head">Включити режим</string>
+    <string name="s2wdt_summary_head">Дозволяє управляти сплячим режимом подвійним натисканням на панелі сенсорних кнопок</string>
+    <string name="s2w_double_tap_dead_area_title_head">Змінити робочу область</string>
+    <string name="s2w_double_tap_dead_area_summary_head">Вибрати робочу область для розпізнавання подвійного клацання</string>
 </resources>
