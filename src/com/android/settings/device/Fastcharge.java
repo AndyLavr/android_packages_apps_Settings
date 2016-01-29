@@ -9,7 +9,7 @@ import com.android.settings.DeviceSettings;
 
 public class Fastcharge implements OnPreferenceChangeListener {
 
-    private static final String FILE = "/sys/devices/platform/htc_battery/fast_charge";
+    private static final String FILE = "/sys/devices/platform/htc_battery/ultrafast_charge";
 
     public static boolean isSupported() {
         return Utils.fileExists(FILE);
