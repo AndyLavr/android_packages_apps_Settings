@@ -901,13 +901,6 @@ public class ManageApplications extends Fragment implements
                 LIST_TYPE_DOWNLOADED, this, savedInstanceState);
         mTabs.add(tab);
 
-        if (Environment.isNoEmulatedStorageExist()) {
-            tab = new TabInfo(this, mApplicationsState,
-                    getActivity().getString(R.string.filter_apps_onsdcard),
-                    LIST_TYPE_SDCARD, this, savedInstanceState);
-            mTabs.add(tab);
-        }
-
         tab = new TabInfo(this, mApplicationsState,
                 getActivity().getString(R.string.filter_apps_running),
                 LIST_TYPE_RUNNING, this, savedInstanceState);

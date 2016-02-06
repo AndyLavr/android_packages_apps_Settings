@@ -313,30 +313,8 @@ public class InstalledAppDetails extends Fragment
     }
 
     private void initMoveButton() {
-        if (!Environment.isNoEmulatedStorageExist()) {
             mMoveAppButton.setVisibility(View.INVISIBLE);
             return;
-        }
-        boolean dataOnly = false;
-        dataOnly = (mPackageInfo == null) && (mAppEntry != null);
-        boolean moveDisable = true;
-        if (dataOnly) {
-            mMoveAppButton.setText(R.string.move_app);
-        } else if ((mAppEntry.info.flags & ApplicationInfo.FLAG_EXTERNAL_STORAGE) != 0) {
-            mMoveAppButton.setText(R.string.move_app_to_internal);
-            // Always let apps move to internal storage from sdcard.
-            moveDisable = false;
-        } else {
-            mMoveAppButton.setText(R.string.move_app_to_sdcard);
-            mCanBeOnSdCardChecker.init();
-            moveDisable = !mCanBeOnSdCardChecker.check(mPackageInfo);
-        }
-        if (moveDisable || mAppControlRestricted) {
-            mMoveAppButton.setEnabled(false);
-        } else {
-            mMoveAppButton.setOnClickListener(this);
-            mMoveAppButton.setEnabled(true);
-        }
     }
 
     private boolean isThisASystemPackage() {
