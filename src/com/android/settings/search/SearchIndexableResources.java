@@ -19,7 +19,6 @@ package com.android.settings.search;
 import android.provider.SearchIndexableResource;
 
 import com.android.settings.ButtonSettings;
-import com.android.settings.DeviceSettings;
 import com.android.settings.DataUsageSummary;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DevelopmentSettings;
@@ -280,13 +279,6 @@ public final class SearchIndexableResources {
                         Ranking.getRankForClassName(ButtonSettings.class.getName()),
                         NO_DATA_RES_ID,
                         ButtonSettings.class.getName(),
-                        R.drawable.ic_settings_buttons));
-
-        sResMap.put(DeviceSettings.class.getName(),
-                new SearchIndexableResource(
-                        Ranking.getRankForClassName(DeviceSettings.class.getName()),
-                        NO_DATA_RES_ID,
-                        DeviceSettings.class.getName(),
                         R.drawable.ic_settings_buttons));
 
         sResMap.put(StatusBarSettings.class.getName(),
