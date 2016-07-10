@@ -587,12 +587,12 @@
   <string name="sim_pin_disabled">PIN1 отключен</string>
   <string name="storage_usb">USB-накопитель</string>
   <string name="storage_uicc">Хранилище UICC</string>
-  <string name="sdcard_eject" product="default">Отключить SD-карту</string>
-  <string name="sdcard_eject_summary" product="default">Отключение SD-карты для её безопасного извлечения из устройства</string>
-  <string name="sd_card_format" product="default">Очистить SD-карту</string>
-  <string name="sd_card_format_summary" product="default">Удаление с SD-карты всех данных, включая музыку и фотографии</string>
-  <string name="sdcard_mount" product="default">Подключить SD-карту</string>
-  <string name="sdcard_insert_summary" product="default">Вставьте SD-карту для монтирования</string>
+  <string name="sdcard_eject" product="default">Отключить внутреннюю память</string>
+  <string name="sdcard_eject_summary" product="default">Отключение внутренней памяти для её безопасного извлечения из устройства</string>
+  <string name="sd_card_format" product="default">Очистить внутреннюю память</string>
+  <string name="sd_card_format_summary" product="default">Удаление с внутренней памяти всех данных, включая музыку и фотографии</string>
+  <string name="sdcard_mount" product="default">Подключить внутреннюю память</string>
+  <string name="sdcard_insert_summary" product="default">Вставьте внутреннюю память для монтирования</string>
   <string name="usb_eject" product="default">Отключить USB-накопитель</string>
   <string name="usb_eject_summary" product="default">Отключить USB-накопитель для его безопасного извлечения</string>
   <string name="usb_format" product="default">Очистить USB-накопитель</string>
@@ -607,28 +607,28 @@
   <string name="uicc_insert_summary" product="default">Подключить вставленный накопитель</string>
   <string name="usb_settings_enable_ums_title">Включить режим USB-накопителя?</string>
   <string name="usb_settings_enable_ums_message">Многие приложения и системные компоненты проектируются с расчётом на постоянно доступную основную память. Использование функции USB-накопителя нарушает эту функциональность, поэтому для большинства случаев рекомендуется использовать MTP. Включить режим USB-накопителя?</string>
-  <string name="dlg_confirm_sdcard_unmount_title" product="default">Отключить SD-карту?</string>
+  <string name="dlg_confirm_sdcard_unmount_title" product="default">Отключить внутреннюю память?</string>
   <string name="dlg_confirm_usb_unmount_title" product="default">Отключить USB-накопитель?</string>
   <string name="dlg_confirm_uicc_unmount_title" product="default">Отключить хранилище UICC?</string>
-  <string name="dlg_confirm_sdcard_unmount_text" product="default">Если отключить SD-карту, некоторые приложения могут перестать работать. Чтобы снова получить к ним доступ, потребуется подключить карту.</string>
+  <string name="dlg_confirm_sdcard_unmount_text" product="default">Если отключить внутреннюю память, некоторые приложения могут перестать работать. Чтобы снова получить к ним доступ, потребуется подключить карту.</string>
   <string name="dlg_confirm_usb_unmount_text" product="default">Если отключить USB-накопитель, некоторые приложения могут перестать работать. Чтобы снова получить к ним доступ, потребуется подключить накопитель.</string>
   <string name="dlg_confirm_uicc_unmount_text" product="default">Если отключить хранилище UICC, некоторые приложения могут перестать работать. Чтобы снова получить к ним доступ, потребуется подключить хранилище.</string>
-  <string name="dlg_error_sdcard_unmount_text" product="default">Не удалось отключить SD-карту. Повторите попытку позже.</string>
+  <string name="dlg_error_sdcard_unmount_text" product="default">Не удалось отключить внутреннюю память. Повторите попытку позже.</string>
   <string name="dlg_error_usb_unmount_text" product="default">Не удалось отключить USB-накопитель. Повторите попытку позже.</string>
   <string name="dlg_error_uicc_unmount_text" product="default">Не удалось отключить хранилище UICC. Повторите попытку позже.</string>
-  <string name="sdcard_unmount_inform_text" product="default">SD-карта будет отключена.</string>
+  <string name="sdcard_unmount_inform_text" product="default">Внутренняя память будет отключена.</string>
   <string name="usb_unmount_inform_text" product="default">USB-накопитель будет отключен.</string>
   <string name="uicc_unmount_inform_text" product="default">Хранилище UICC будет отключено.</string>
-  <string name="sdcard_media_format_desc" product="default">Очистить SD-карту? Вы потеряете <b>все</b> сохранённые на ней данные!</string>
+  <string name="sdcard_media_format_desc" product="default">Очистить внутреннюю память? Вы потеряете <b>все</b> сохранённые на ней данные!</string>
   <string name="usb_media_format_desc" product="default">Очистить USB-накопитель? Вы потеряете <b>все</b> сохраненные на нем данные!</string>
   <string name="uicc_media_format_desc" product="default">Очистить хранилище UICC? Вы потеряете <b>все</b> сохраненные на нем данные!</string>
-  <string name="sdcard_media_format_button_text" product="default">Очистить SD-карту</string>
+  <string name="sdcard_media_format_button_text" product="default">Очистить внутреннюю память</string>
   <string name="usb_media_format_button_text" product="default">Очистить USB-накопитель</string>
   <string name="uicc_media_format_button_text" product="default">Очистить хранилище UICC</string>
-  <string name="sdcard_media_format_final_desc" product="default">Очистить SD-карту, удалив на ней все файлы без возможности восстановления? Это действие нельзя будет отменить!</string>
+  <string name="sdcard_media_format_final_desc" product="default">Очистить внутреннюю память, удалив на ней все файлы без возможности восстановления? Это действие нельзя будет отменить!</string>
   <string name="usb_media_format_final_desc" product="default">Очистить USB-накопитель, удалив на нем все файлы без возможности восстановления? Это действие нельзя будет отменить!</string>
   <string name="uicc_media_format_final_desc" product="default">Очистить хранилище UICC, удалив на нем все файлы без возможности восстановления? Это действие нельзя будет отменить!</string>
-  <string name="sdcard_media_format_gesture_explanation" product="default">Чтобы подтвердить очистку SD-карты, начертите графический ключ.</string>
+  <string name="sdcard_media_format_gesture_explanation" product="default">Чтобы подтвердить очистку внутренней памяти, начертите графический ключ.</string>
   <string name="usb_media_format_gesture_explanation" product="default">Чтобы подтвердить очистку USB-накопителя, начертите графический ключ.</string>
   <string name="uicc_media_format_gesture_explanation" product="default">Чтобы подтвердить очистку накопителя UICC, начертите графический ключ.</string>
   <string name="internal_sd_format">Очистить внутреннюю память</string>
@@ -660,7 +660,7 @@
   <string name="usb_charging_title">Только зарядка</string>
   <string name="usb_charging_summary">Отключает обмен данными с компьютером и использует USB-порт только для зарядки батареи</string>
   <string name="usb_sdcard_title">USB-накопитель (UMS)</string>
-  <string name="usb_sdcard_summary">Позволяет передавать файлы путем использования SD-карты устройства в качестве съемного диска</string>
+  <string name="usb_sdcard_summary">Позволяет передавать файлы путем использования внутренней памяти устройства в качестве съемного диска</string>
   <string name="usb_not_connected">USB-кабель отключён</string>
   <string name="external_storage_turn_on">Внешний накопитель включен</string>
   <string name="external_storage_turn_off">Внешний накопитель отключен</string>
@@ -898,8 +898,8 @@
   <string name="factory_reset_erase_stored_content">Очистить сохранённые данные</string>
   <string name="factory_reset_erase_stored_content_summary">Удалить музыку, фотографии, видео и другие данные, хранящиеся на устройстве</string>
   <string name="factory_reset_erase_stored_content_summary_forced">Удалить музыку, фотографии, видео и другие данные, хранящиеся на устройстве. \n\n<b>Сохранить данные невозможно, т.к. включено шифрование устройства.</b></string>
-  <string name="factory_reset_erase_sd_card">Отформатировать SD-карту</string>
-  <string name="factory_reset_erase_sd_card_summary">Удалить с SD-карты все данные, включая музыку и фотографии</string>
+  <string name="factory_reset_erase_sd_card">Отформатировать внутреннюю память</string>
+  <string name="factory_reset_erase_sd_card_summary">Удалить с внутренней памяти все данные, включая музыку и фотографии</string>
   <string name="factory_reset_warning_text_reset_now">УДАЛИТЬ ВСЁ</string>
   <string name="factory_reset_warning_text_message">Все добавленные аккаунты, приложения, их данные и настройки будут удалены с этого устройства. Отменить это действие будет невозможно.</string>
   <string name="wifi_show_all">Все сети</string>
